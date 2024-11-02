@@ -1,0 +1,117 @@
+/* styles.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+    
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+ 
+img{
+    width: 50%;
+    height: 50%;
+}
+main {
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.intro p {
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.btn {
+    padding: 0.75rem 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.features {
+    background-color: #f9f9f9;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.testimonial blockquote {
+    margin: 1rem;
+    font-style: italic;
+    color: #555;
+}
+
+.cta {
+    background-color: #2b0fc7;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.cta input {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    width: 200px;
+    height: 70px;
+}
+footer {
+    width: 100%;
+    background-color: #040455;
+    color: white;
+    padding: 5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+ 
+.contact-info,
+.footer-links,
+.social-links {
+    list-style: none;
+    margin-top: 1rem;
+}
